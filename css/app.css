@@ -6,8 +6,37 @@
     width: 80%;
     height: 40px;
     background-color: #eee;
+    border-radius: 5px;
     margin: auto;
     transition: width 500ms;
+}
+
+.danger-health {
+    background-color: #FF0000 !important;
+}
+
+.image {
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.player-image {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTTLouGyH5TMGRTB9JuAk7VhZe3mn8skhwSQ4_JWyVY-a0N4u");
+}
+
+.player-wounded {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3AtKzS0Qx2CNCVKb59Z6k2XyUziRdlfsmPdwDekNukbHfJFOmQ") !important;
+}
+
+.monster-image {
+    background-image: url();
+}
+
+.monster-wounded {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXHwFwdtDZJhlVavLbXe1ZNB8RST_0xuphV0hYUOmkvm1-qIOi3g');
 }
 
 .controls, .log {
